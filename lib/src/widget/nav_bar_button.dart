@@ -197,7 +197,7 @@ class _NavBarButtonState extends State<NavBarButton>
               child: Container(
                 width: deviceWidth / widget.itemCount,
                 alignment: Alignment.center,
-                height: textHeight(title, getTextStyle()),
+                // height: textHeight(title, getTextStyle()),
                 child: Text(
                   title,
                   overflow: TextOverflow.clip,

@@ -36,7 +36,8 @@ class NavBarBody extends StatelessWidget {
     final double bottomPading = MediaQuery.of(context).padding.bottom;
     return Container(
       clipBehavior: Clip.hardEdge,
-      height: 60 + bottomPading,
+      height: 60,
+      margin: EdgeInsets.only(bottom: bottomPading),
       decoration: BoxDecoration(
         color: backgroundColor,
       ),
